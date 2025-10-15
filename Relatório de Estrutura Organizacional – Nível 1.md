@@ -1,7 +1,7 @@
 
-# 📾 Relatório de Estrutura Organizacional – Nível 1
+# Relatório de Estrutura Organizacional – Nível 1
 
-## 📝 Descrição
+##  Descrição
 
 Este relatório tem como objetivo apresentar uma visão geral da estrutura da empresa **Momento**, incluindo o número to-
 tal de funcionários, distribuição por departamento e escritórios, bem como os principais setores existentes. Incluindo topicos como: 
@@ -12,7 +12,7 @@ tal de funcionários, distribuição por departamento e escritórios, bem como o
 
 Essas informações servem de base para os relatórios seguintes, como análise financeira, RH e operações.
 
-## ⚙️ Metodologia
+##  Metodologia
 
 Para o desenvolvimento deste relatório, utilizamos consultas básicas no **MongoDB Compass**, empregando os comandos `find()`, `countDocuments()` e `distinct()` para extrair informações gerais das coleções `funcionarios`, `departamentos` e `escritorios`.
 
