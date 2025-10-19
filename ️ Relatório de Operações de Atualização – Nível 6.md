@@ -29,10 +29,26 @@ db.departamentos.insertOne({
 });
 
 // 6.2 Transferir 2 funcionários de Tecnologia para Inovações
-db.funcionarios.updateMany(
-  { departamento: ObjectId("85992103f9b3e0b3b3c1fe74") },
-  { $set: { departamento: ObjectId("ID_DO_DEPARTAMENTO_INOVACOES") } },
-  { limit: 2 }
+db.funcionarios.updateOne(
+  { nome: "Diana Lorentz" },
+  {
+    $set: {
+      departamento: ObjectId("68efd0b5a8a7bd89c14eb64f"),
+      cargo: "Diretora de Inovação",
+      salario: 20434
+    }
+  }
+);
+
+db.funcionarios.updateOne(
+  { nome: "Valli Stark" },
+  {
+    $set: {
+      departamento: ObjectId("68efd0b5a8a7bd89c14eb64f"),
+      cargo: "Líder de Projeto de IA",
+      salario: 19532
+    }
+  }
 );
 
 // 6.3 Aumentar 10% dos salários do departamento de Tecnologia
@@ -80,7 +96,7 @@ db.funcionarios.deleteMany({ dataAdmissao: { $lt: ISODate("1990-01-01") } });
 ## Conclusões Alcançadas
 
 * Criação do departamento **Inovações** fortalece a área de pesquisa e desenvolvimento, refletindo crescimento estratégico.
-* Transferência de funcionários garante que **talentos sejam alocados onde mais necessários**.
+* Transferência dos funcionários Valli Stark e Diana Lorentz garante que **talentos sejam alocados onde mais necessários**.
 * Ajustes salariais e promoções demonstram políticas de **retenção e motivação de funcionários**.
 * Inclusão de suprimentos garante que o escritório tenha **equipamentos atualizados para novas operações**.
 * Remoção de funcionários antigos mantém o banco de dados **limpo e alinhado co
