@@ -9,6 +9,9 @@ Este relatório aborda desafios avançados de MongoDB envolvendo múltiplas solu
 Foram aplicadas queries `find()` e pipelines de agregação (`aggregate`) no MongoDB. Para cada desafio, as consultas foram estruturadas para extrair os dados relevantes, considerando eficiência e clareza.
 
 ---
+## Informações.
+--- 
+### Consultas
 
 ### 9.1 Múltiplas Soluções: Funcionários com salário entre $6.000 e $10.000
 
