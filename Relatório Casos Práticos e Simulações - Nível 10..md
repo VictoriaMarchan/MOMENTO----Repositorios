@@ -117,7 +117,7 @@ db.funcionarios.insertMany([
 ])
 ```
 
-**Resultado simulado:**
+**Resultado:**
  
  *Cinco novos funcionários tem començado na Momento Brasil*
 
@@ -291,7 +291,7 @@ db.funcionarios.aggregate([
 ]);
 ```
 
-**Resultado simulado:**
+**Resultado:**
 
 ```
 Dashboard consolidado pronto.
@@ -306,7 +306,7 @@ Dashboard consolidado pronto.
 
 ---
 
-## 🧠 Conclusões Alcançadas
+## Conclusões Alcançadas
 
 * A criação do escritório "Momento Brasil" fortalece a presença internacional da empresa, oferecendo infraestrutura moderna e projetos estratégicos de P&D.
 * O novo departamento "Operações LATAM" permite centralizar a gestão regional e facilitar a expansão de funcionários e processos.
