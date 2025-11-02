@@ -51,7 +51,7 @@ db.funcionarios.find({
 });
 ```
 
-**Espaço para resultados:**
+**Resultados:**
 
 > *Pat Ferreira (2 filhos e sua esposa) 
    Sarah Bell ( um filho e seu esposo)*
@@ -115,7 +115,7 @@ cursor.forEach(doc => {
 
 ```
 
-**Espaço para resultados:**
+**Resultados:**
 
 > *Todos os funcionários foram transferidos aos seus escritorios correspondentes.*
 
@@ -171,7 +171,7 @@ db.escritorios.aggregate([
 ]);
 ```
 
-**Espaço:**
+**Resultados:**
 
 > *nome: 'Wayne Offices',
   pais: 'USA',
@@ -199,7 +199,7 @@ db.funcionarios.aggregate([
 ]);
 ```
 
-**resultados:**
+**Resultados:**
 
 > *_id: ObjectId('85992103f9b3e0b3b3c1fe70'),
   salarioMax: 71000,
@@ -214,7 +214,7 @@ db.funcionarios.aggregate([
 db.vendas.find({ produto: /Uniforme/i })
 ```
 
-**resultados:**
+**Resultados:**
 
 > *'Uniforme do Superman', 'Uniforme de Moléculas Instáveis'*
 
@@ -255,7 +255,7 @@ db.vendas.aggregate([
 ]);
 ```
 
-**resultados:**
+**Resultados:**
 
  * Produto: 'Uniforme do Superman'.
   Quantidade: 1.
@@ -315,4 +315,4 @@ db.vendas.aggregate([
 
 ##  Conclusões Alcançadas
 
-> *As otimizações implementadas melhoraram a confiabilidade e reduziram falhas lógicas nos resultados, preparando o ambiente para relatórios corporativos mais robustos nos próximos meses.*
+* As otimizações implementadas melhoraram a confiabilidade e reduziram falhas lógicas nos resultados, preparando o ambiente para relatórios corporativos mais robustos nos próximos meses.*
