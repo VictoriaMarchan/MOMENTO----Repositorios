@@ -67,7 +67,7 @@ db.escritorios.find({}, { nome: 1, pais: 1, _id: 0 });
 
 ---
 
-### 🔹 Ajustes / Observações
+###  Ajustes / Observações
 
 Durante a execução das consultas, foi necessário confirmar o **ObjectId** correto do Departamento de Tecnologia nos dados da nossa funcionaria Victoria Marchan para evitar retorno nulo em `countDocuments()`.
 Além disso, verificou-se que os nomes de alguns departamentos estavam com inicial maiúscula, o que exigiu consistência nas consultas.
