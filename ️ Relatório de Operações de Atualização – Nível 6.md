@@ -80,7 +80,7 @@ db.funcionarios.deleteMany({ dataAdmissao: { $lt: ISODate("1990-01-01") } });
 * O ID do departamento Inovações precisou ser definido manualmente na transferência de funcionários.
 * As datas de admissão foram verificadas para evitar inconsistências de formatação.
 
-### 📊 Resultados Obtidos
+### Resultados Obtidos
 
 | Nº  | Ação                          | Resultado                                           |
 | --- | ----------------------------- | --------------------------------------------------- |
@@ -99,4 +99,4 @@ db.funcionarios.deleteMany({ dataAdmissao: { $lt: ISODate("1990-01-01") } });
 * Transferência dos funcionários Valli Stark e Diana Lorentz garante que **talentos sejam alocados onde mais necessários**.
 * Ajustes salariais e promoções demonstram políticas de **retenção e motivação de funcionários**.
 * Inclusão de suprimentos garante que o escritório tenha **equipamentos atualizados para novas operações**.
-* Remoção de funcionários antigos mantém o banco de dados **limpo e alinhado co
+* Remoção de funcionários antigos mantém o banco de dados **limpo e alinhado**.
