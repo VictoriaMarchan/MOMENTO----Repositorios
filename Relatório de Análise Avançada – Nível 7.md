@@ -44,7 +44,6 @@ db.funcionarios.aggregate([
 ]);
 
 // 7.3 Funcionários acima da média salarial do seu departamento
-// 7.3 Funcionários acima da média do seu departamento
 const mediaPorDepto = db.funcionarios.aggregate([
   { 
     $group: { 
