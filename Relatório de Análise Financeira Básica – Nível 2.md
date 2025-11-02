@@ -51,7 +51,7 @@ db.funcionarios.aggregate([
 ]);
 ```
 
-### ⚠ Ajustes / Observações
+### Ajustes / Observações
 
 Durante o desenvolvimento, foi necessário ajustar a consulta do **Departamento de Tecnologia**, substituindo o uso do `ObjectId` por uma correspondência direta do nome, pois os registros estavam em formato de string. Sem essa correção, o comando retornava vazio.
 
